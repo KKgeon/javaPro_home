@@ -1,0 +1,9 @@
+package days12;
+
+public class Ex04 {
+	public static void main(String[] args) {
+		//1차원배열 -> 2차원배열 옮기는 코딩
+		//2차원배열 -> 1차원배열 옮기는 코딩
+		
+	}//m
+}//c

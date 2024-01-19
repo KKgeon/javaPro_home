@@ -1,0 +1,22 @@
+package days11;
+
+/**
+ * @author geon
+ * @date 2024. 1. 15. - 오후 3:43:40
+ * @subject
+ * @content
+ */
+public class Ex10 {
+	public static void main(String[] args) {
+		//정렬( sort ) - 일정한 순서로 다시 배열하는 것.
+		// 오름차순 정렬
+		// 예) 숫자	0 1 2 3 4 5
+		//			a b c d e f
+		//			가 나 다 라 마
+		// 내림차순 정렬
+		//			5 4 3 2 1 0
+		//			f e d c b a
+		//			마 라 다 나 가
+		
+	}//m
+}//c

@@ -1,0 +1,16 @@
+package days12;
+
+/**
+ * @author geon
+ * @date 2024. 1. 16. - 오후 2:06:08
+ * @subject
+ * @content 검색(search)
+ * 			ㄴ순차검색(Sequence Search)
+ * 			ㄴ이진검색(BibarySearch)
+ * 				-필수조건( 정렬 )
+ */
+public class Ex07 {
+	public static void main(String[] args) {
+
+	}//m
+}//c

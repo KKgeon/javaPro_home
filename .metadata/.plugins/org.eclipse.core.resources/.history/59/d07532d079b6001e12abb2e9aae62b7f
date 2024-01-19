@@ -1,0 +1,12 @@
+package days15;
+
+public class Ex04 {
+	public static void main(String[] args) {
+		//어제 했던 코딩을 생성자 사용해서 수정
+		//생성자 사용 예제
+		
+		int year = 2024;
+		int month = 1;
+		int day = 19;
+	}//m
+}//c

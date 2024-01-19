@@ -1,0 +1,36 @@
+package days14;
+
+/**
+ * @author geon
+ * @date 2024. 1. 18. - 오전 11:24:52
+ * @subject
+ * @content
+ */
+public class Ex04 {
+	public int age = 20;
+	public static void main(String[] args) {
+		/*
+		 * [접근지정자 설명]
+		 * 1. 클래스 앞의 접근지정자
+		 * 		1) public : 패키지 내부, 외부 어디서든 상속과 참조 가능
+		 * 			(패키지 내부)
+		 * 			days14.Ex04.java
+		 * 			days14.Tv.java
+		 */ 		
+		Tv tv1 = new Tv();//참조가능
+
+
+
+		/* 		2) package(앞에 아무것도 안붙음 ,default)
+		 *		3) private (비활성화)
+		 *		4) protected (비활성화)
+		 *
+		 * 
+		 * 2. 멤버 앞의 접근지정자
+		 * 
+		 */
+
+
+	}//m
+
+}//c

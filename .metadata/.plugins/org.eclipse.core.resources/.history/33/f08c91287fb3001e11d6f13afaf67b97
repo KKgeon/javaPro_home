@@ -1,0 +1,21 @@
+package days11;
+
+/**
+ * @author geon
+ * @date 2024. 1. 15. - 오후 5:14:40
+ * @subject
+ * @content
+ */
+public class Ex11 {
+	public static void main(String[] args) {
+			/*
+			 * 
+			 * 
+			 * [다차원 배열은 배열의 배열이다]
+			 */
+		
+		//1차원배열
+		int [] m = new int [8];
+		
+	}//m
+}//c

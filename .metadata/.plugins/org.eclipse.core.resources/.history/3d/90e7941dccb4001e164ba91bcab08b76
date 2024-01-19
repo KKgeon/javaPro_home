@@ -1,0 +1,12 @@
+package javaPro;
+/*
+ * 
+2. 아래 1차원 배열 m 의 값을 2차원 배열 n에 채워넣는 변환코딩을 하세요.
+  int [] m = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12  };
+  int [][] n = new int[6][2];  
+ */
+public class Sample3 {
+	public static void main(String[] args) {
+
+	}//m
+}//c

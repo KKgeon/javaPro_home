@@ -1,0 +1,11 @@
+package days15;
+
+import days14.Student;
+
+public class Ex01 {
+	final int STUDENT_COUNT = 30;
+	final int CLASS_COUNT= 3;
+
+		Student [][] students = new Student[CLASS_COUNT][STUDENT_COUNT];
+		
+}

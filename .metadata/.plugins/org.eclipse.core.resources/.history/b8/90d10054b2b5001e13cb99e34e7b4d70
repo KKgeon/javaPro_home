@@ -1,0 +1,8 @@
+package days14;
+
+public class Point {
+
+	public static void main(String[] args) {
+		int x, y = 0;
+	}
+}

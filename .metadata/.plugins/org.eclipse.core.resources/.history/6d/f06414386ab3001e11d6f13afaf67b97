@@ -1,0 +1,13 @@
+package days11;
+
+/**
+ * @author geon
+ * @date 2024. 1. 15. - 오후 2:50:19
+ * @subject
+ * @content
+ */
+public class Ex08 {
+	public static void main(String[] args) {
+		int [] m = { 3, 92, 3, 40, 71, 91, 61, 92, 76, 71, 59, 54, 64, 48, 66, 92, 25, 20, 73, 37 };
+	}//m
+}//c

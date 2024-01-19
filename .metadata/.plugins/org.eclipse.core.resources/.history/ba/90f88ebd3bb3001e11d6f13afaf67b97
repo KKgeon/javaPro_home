@@ -1,0 +1,26 @@
+package javaPro;
+
+import java.util.Scanner;
+
+public class Sample4 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int [] n = new int [3];
+		appendArray(n);
+		System.out.println(n[]);
+
+	}//m
+
+	private static void appendArray(int [] n) {
+		int index = 0;
+		Scanner sc = new Scanner(System.in);
+		int m = sc.nextInt();
+		n[index++] = m;
+		
+		
+		
+		
+	}
+
+}//c

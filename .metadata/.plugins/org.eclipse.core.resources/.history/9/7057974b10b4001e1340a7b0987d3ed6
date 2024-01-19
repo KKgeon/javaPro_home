@@ -1,0 +1,21 @@
+package days12;
+
+/**
+ * @author geon
+ * @date 2024. 1. 16. - 오전 10:29:16
+ * @subject
+ * @content
+ */
+public class Ex02_02 {
+	public static void main(String[] args) {
+			//2행 4열 2차원배열
+			int [][] m = new int [2][4];
+			//2차원배열 = 1차원배열의 배열이다.(그림)
+			
+			System.out.println(m.length);
+			System.out.println(m[0].length);
+			System.out.println(m[1].length);
+			
+		
+	}//m
+}//c

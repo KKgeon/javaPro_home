@@ -1,0 +1,27 @@
+package javaPro;
+
+import java.util.Scanner;
+
+public class Sample2 {
+
+	public static void main(String[] args) {
+
+//		3. 3반 30명 학생 이,국,영,수,총,평,반등수,전교등수 처리 코딩.
+	    final int STUDENT_COUNT = 30;
+		final int CLASS_COUNT = 3;		
+		String [][] names = new String[CLASS_COUNT][STUDENT_COUNT];
+		int [][][] infos = new int[CLASS_COUNT][STUDENT_COUNT][6];
+		double [][] avgs = new double[CLASS_COUNT][STUDENT_COUNT];
+		
+		char con = 'y'; 	
+		int [] counts = new int[CLASS_COUNT];
+		
+		String name;
+		int kor, eng, mat, tot, rank, wrank;
+		double avg;		
+		Scanner scanner = new Scanner(System.in);
+		int ban ;
+
+
+	}
+}

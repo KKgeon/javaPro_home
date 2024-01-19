@@ -1,0 +1,22 @@
+package days14;
+
+public class Student {
+	//field(멤버변수)
+	String name;
+	int kor, eng, mat, tot;
+	double avg;
+	int rank;
+	
+	//method
+	public void dispInfo() {
+		System.out.printf("%s\t%d\t%d\t%d\t%d\t%.2f\t%d등\n",
+				name,
+				kor,
+				eng,
+				mat,
+				tot,
+				avg,
+				rank );
+	}
+
+}//class

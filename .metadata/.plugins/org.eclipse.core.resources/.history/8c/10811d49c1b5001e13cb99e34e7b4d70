@@ -1,0 +1,12 @@
+package days14;
+
+public class Point {
+	//field(멤버변수)
+	public int x;
+	public int y;
+	//method(멤버함수)
+	public void dispXY() {
+		System.out.printf("> x =%d, y=%d", x, y);
+		
+	}
+}

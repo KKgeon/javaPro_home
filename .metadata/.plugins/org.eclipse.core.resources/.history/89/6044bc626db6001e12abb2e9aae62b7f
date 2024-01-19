@@ -1,0 +1,21 @@
+package javaPro;
+
+import java.util.Scanner;
+
+public class Sample4 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		Student stu = new Student();
+		
+		final int STUDENT_COUNT = 30;
+		
+
+	}//m
+
+} // class
+
+
+
+

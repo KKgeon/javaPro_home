@@ -1,0 +1,16 @@
+package days11;
+
+/**
+ * @author geon
+ * @date 2024. 1. 15. - 오후 2:20:16
+ * @subject
+ * @content
+ */
+public class Ex07 {
+	public static void main(String[] args) {
+		int [] m = { 3, 92, 3, 40, 71, 91, 61, 92, 76, 71, 59, 54, 64, 48, 66, 92, 25, 20, 73, 37 };
+		
+		//max 가장 큰 값을 찾아서 그 위치(index)를 배열에 담아서 출력하고싶다
+		int []maxIndexArray = {1, 7, 15};
+	}//m
+}//c

@@ -1,0 +1,10 @@
+package javaPro;
+
+public class Sample {
+	public static void main(String[] args) {  
+		int [] m = {3,5,2,4,1};
+		m[3] = 100;
+		System.out.println(m[3]);
+		
+	}//m
+}//c

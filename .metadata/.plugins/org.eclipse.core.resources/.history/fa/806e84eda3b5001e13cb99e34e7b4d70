@@ -1,0 +1,15 @@
+package days14;
+
+/**
+ * @author geon
+ * @date 2024. 1. 18. - 오전 10:25:11
+ * @subject Tv클래스 선언 -> 객체 생성 후 사용
+ * @content
+ */
+public class Ex02 {
+	public static void main(String[] args) {
+		
+		
+		
+	}//m
+}//c

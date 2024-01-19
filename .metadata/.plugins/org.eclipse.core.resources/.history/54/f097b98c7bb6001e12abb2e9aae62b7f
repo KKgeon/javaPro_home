@@ -1,0 +1,17 @@
+package days15;
+
+public class Person {
+	//field
+	private String name;
+	private int age;
+	private boolean gender;
+
+	
+	
+	//constructor
+	public Person() {
+		String n;
+
+	}
+
+}

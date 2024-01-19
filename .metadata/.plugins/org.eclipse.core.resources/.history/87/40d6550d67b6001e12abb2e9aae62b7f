@@ -1,0 +1,10 @@
+package javaPro;
+
+public class Student {
+	String name;
+	int kor, eng, mat;
+	int tot;
+	double avg;
+	int rank;
+}
+

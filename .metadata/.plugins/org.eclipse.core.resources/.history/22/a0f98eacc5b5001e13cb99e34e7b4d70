@@ -1,0 +1,14 @@
+package days14;
+
+/**
+ * @author geon
+ * @date 2024. 1. 18. - 오후 2:45:17
+ * @subject	days11.Ex05_02.java
+ * @content	Student 학생 클래스 수정...
+ */
+public class Ex08 {
+	public static void main(String[] args) {
+		final int STUDENT_COUNT = 23;
+	}//m
+
+}//c

@@ -1,0 +1,53 @@
+package javaPro;
+
+import java.util.Scanner;
+
+public class Sample2 {
+
+	public static void main(String[] args) {
+
+		//		3. 3반 30명 학생 이,국,영,수,총,평,반등수,전교등수 처리 코딩.
+		final int STUDENT_COUNT = 30;
+		final int CLASS_COUNT = 3;		
+		String [][] names = new String[CLASS_COUNT][STUDENT_COUNT];
+		int [][][] infos = new int[CLASS_COUNT][STUDENT_COUNT][6];
+		double [][] avgs = new double[CLASS_COUNT][STUDENT_COUNT];
+
+		char con = 'y'; 	
+		int [] counts = new int[CLASS_COUNT];
+
+		String name;
+		int kor, eng, mat, tot, rank, wrank;
+		double avg;		
+		Scanner scanner = new Scanner(System.in);
+		int ban ;
+
+		name = scanner.next();
+		kor = scanner.nextInt();
+		eng = scanner.nextInt();
+		mat = scanner.nextInt();
+		tot = kor+eng+mat;
+		avg = tot/3;
+		int count = 0;
+
+		ban = scanner.nextInt();
+
+		infos[0] = 
+
+
+
+				con = (char) System.in.read();//나는 con을 배열로 초기화한적이 없는데 대체 왜?
+
+
+
+
+
+
+
+
+
+
+
+
+	}//m
+}//c

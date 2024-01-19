@@ -1,0 +1,8 @@
+package javaPro;
+
+public class Student {
+	String name;
+	int kor, eng, mat;
+	int tot = kor+eng+mat;
+	double avg = tot/3;
+}

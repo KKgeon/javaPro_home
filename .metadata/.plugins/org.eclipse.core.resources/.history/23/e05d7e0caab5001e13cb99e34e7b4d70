@@ -1,0 +1,28 @@
+package days14;
+
+/**
+ * @author geon
+ * @date 2024. 1. 18. - 오전 11:24:52
+ * @subject
+ * @content
+ */
+public class Ex04 {
+	public int age = 20;
+	public static void main(String[] args) {
+		/*
+		 * [접근지정자 설명]
+		 * 1. 클래스 앞의 접근지정자
+		 * 		1) public
+		 * 		2) package
+		 *		3) private
+		 *		4) protected
+		 *
+		 * 
+		 * 2. 멤버 앞의 접근지정자
+		 * 
+		 */
+
+
+	}//m
+
+}//c

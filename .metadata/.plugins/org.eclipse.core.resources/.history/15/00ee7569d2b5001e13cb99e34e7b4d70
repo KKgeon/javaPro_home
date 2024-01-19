@@ -1,0 +1,19 @@
+package days14;
+
+public class Point {
+	//field(멤버변수)
+	public int x;
+	public int y;
+	//method(멤버함수)
+	public void dispXY() {
+		System.out.printf("> x =%d, y=%d\n", x, y);
+		
+	}
+	
+	//p1.movePoint()
+	public void movePoint(int pos) {
+		x += 100;
+		y += 100;
+	}
+	
+}//c

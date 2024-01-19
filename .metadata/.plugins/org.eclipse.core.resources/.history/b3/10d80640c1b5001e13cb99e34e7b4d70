@@ -1,0 +1,24 @@
+package days14;
+
+public class Ex06 {
+	public static void main(String[] args) {
+		//[객체(클래스) 배열]
+		// 배열
+
+
+
+		//클래스 배열
+		
+		Point [] points = new Point[3];
+
+			for (int i = 0; i < points.length; i++) {
+				//NullPointerException
+				points[i] = new Point();
+				points[i].dispXY();
+
+			}
+
+
+
+	}//m
+}//c

@@ -1,0 +1,12 @@
+package days14;
+
+public class Ex03 {
+	public static void main(String[] args) {
+		int [] m;
+//		int [] m = new int [3];
+
+		//NullPointerException
+		//ArrayIndexOutOfBoundsException
+		System.out.println(m[3]);
+	}//m
+}//c

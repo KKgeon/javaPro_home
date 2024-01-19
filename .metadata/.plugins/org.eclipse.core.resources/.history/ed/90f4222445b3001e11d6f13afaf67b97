@@ -1,0 +1,17 @@
+package days11;
+
+import java.util.Arrays;
+
+public class Ex02 {
+	public static void main(String[] args) {
+		int [] m = new int [3];
+
+
+		dispArray(m);
+	}//m
+
+	private static void dispArray(int [] m) {
+		System.out.println(Arrays.toString(m));
+
+	}
+}//c

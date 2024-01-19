@@ -1,0 +1,86 @@
+package days13;
+
+/**
+ * @author geon
+ * @date 2024. 1. 17. - 오후 3:26:43
+ * @subject
+ * @content
+ */
+public class Ex02 {
+	public static void main(String[] args) {
+		int [][] m = new int [5][5];
+//		fillM01(m);
+//		fillM02(m);
+		fillM03(m);
+		dispM(m);
+	}//m
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	private static void fillM03(int[][] m) {
+		for (int i = 0; i < m.length; i--) {
+			for (int j = 0; j < m[i].length; j++) {
+				m[i][j]= 5*i+j+1;
+			}//for j
+		}//for i
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+	private static void fillM02(int[][] m) {
+		for (int i = 0; i < m.length; i++) {
+			for (int j = 0; j < m[i].length; j++) {
+				m[4-i][4-j]= 5*i+j+1;
+			}//for j
+		}//for i
+	}//fillM02
+
+	/* [2]
+	private static void fillM01(int[][] m) {
+		for (int i = 0; i < m.length; i++) {
+			for (int j = 0; j < m[i].length; j++) {
+				m[i][j]=5*i+j+1;
+			}//for j
+		}//for i
+	}//fillM01
+	 */
+
+
+	/* [1]
+	private static void fillM01(int[][] m) {
+		for (int i = 0, value = 1; i < m.length; i++) {
+			for (int j = 0; j < m[i].length; value++) {
+				m[i][j]=value;
+			}//for j
+		}//for i
+	}//fillM01
+	 */
+
+	private static void dispM(int[][] m) {
+		for (int i = 0; i < m.length; i++) {
+			for (int j = 0; j < m[i].length; j++) {
+				System.out.printf("[%02d]", m[i][j]);
+			}//for j
+			System.out.println();
+		}//for i
+
+	}//dispM
+}//c

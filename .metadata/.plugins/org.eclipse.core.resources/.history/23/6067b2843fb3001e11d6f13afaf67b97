@@ -1,0 +1,54 @@
+package javaPro;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Sample4 {
+	static int [] n = new int [3];
+	static int index = 0;
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+
+		appendArray(n);
+		System.out.println(Arrays.toString(n));
+
+		dispArray();
+
+	}//m
+
+	private static void dispArray() {
+		for (int i = 0; i < n.length; i++) {
+		System.out.printf("n[%d]=%d", i, n[i]);
+	}
+	System.out.println();
+	}
+
+	private static void appendArray(int [] n) {
+
+		Scanner sc = new Scanner(System.in);
+		int m = sc.nextInt();
+
+		do {
+			addArr();
+		} while (n.length == index);
+
+		n[index++] = m;
+
+
+
+
+
+	}
+
+	private static void addArr() {
+		int [] temp = new int [n.length + 3];
+
+		for (int i = 0; i < n.length; i++) {
+			temp[i] = n[i];
+		}
+		n = temp;
+	}
+
+
+}//c

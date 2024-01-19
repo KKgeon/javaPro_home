@@ -1,0 +1,9 @@
+package days14;
+
+class Student {
+	//field
+	String name;
+	int kor, eng, mat, tot;
+	double avg;
+	int rank;
+}

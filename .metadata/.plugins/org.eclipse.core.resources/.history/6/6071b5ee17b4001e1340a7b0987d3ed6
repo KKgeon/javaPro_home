@@ -1,0 +1,17 @@
+package days12;
+
+public class Ex04 {
+	public static void main(String[] args) {
+		//1차원배열 -> 2차원배열 옮기는 코딩
+		//2차원배열 -> 1차원배열 옮기는 코딩
+		int [] m = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12  };
+		dispM(m);
+	}//m
+
+	private static void dispM(int[] m) {
+for (int i = 0; i < m.length; i++) {
+	System.out.printf("m[%d]=%d", i, m[i]);
+}
+		
+	}
+}//c

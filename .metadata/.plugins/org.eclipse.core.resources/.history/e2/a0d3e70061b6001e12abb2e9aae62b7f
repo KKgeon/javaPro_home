@@ -1,0 +1,15 @@
+package javaPro;
+//1. 게임횟수를 입력받아서 로또 게임  
+//int [][] lottos ;
+public class Sample4 {
+
+	public static void main(String[] args) {
+		  int [][] lottos ;
+
+	}//m
+
+} // class
+
+
+
+

@@ -1,0 +1,31 @@
+package days15;
+
+/**
+ * @author geon
+ * @date 2024. 1. 19. - 오전 11:09:00
+ * @subject 다음주 시험문제 1번
+ * @content
+ */
+public class Ex03 {
+
+	//디폴트생성자 (constructor) <- 매개변수없으니깐 디폴트생성자임
+	public Ex03(){
+		System.out.println("> Ex03 Default Constructor...");
+	}
+	// java Ex03실행 -> 메인 실행
+	public static void main(String[] args) {
+		/*
+		 * 
+		 * //생성자 (constructor)
+		 * 1. 생성자는 일종의 메서드이다.
+		 * 2. 메서드명 == 클래스명 		생성자는 반드시 클래스 이름과 같아야한다.
+		 * 3. 리턴자료형을 사용하지 않는다.	return문 X
+		 * 4. 매개변수가 없는 생성자를 디폴트 생성자라고 한다.
+		 * 		(Default Constructor)
+		 * 5. 접근지정자를 사용할 수 있다. 
+		 *		기타제어자는 사용할 수 없다
+		 * 6. 호줄 시첨
+		 */
+		Ex03(); //함수호출부분
+	}//m
+}//c

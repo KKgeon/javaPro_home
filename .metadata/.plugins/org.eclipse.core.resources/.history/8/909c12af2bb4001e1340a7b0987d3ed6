@@ -1,0 +1,55 @@
+package days12;
+
+/**
+ * @author geon
+ * @date 2024. 1. 16. - 오후 12:21:08
+ * @subject	숙제2
+ * @content	이건 좀 쉬워보임..
+ */
+public class Ex04_03 {
+	public static void main(String[] args) {
+		//3행4열짜리 2차원배열
+		int [][] n = {
+				{1,2,3,4},
+				{5,6,7,8},
+				{9,10,11,12}
+		};
+		//2행6열 2차원배열
+		int[][] m = new int [2][6];
+		
+//		[][][][][][]
+//		[][][][][][]
+		//n->m\
+		
+		
+		//2차원배열에서 2차원배열로 옮기기
+		
+		for (int i = 0; i < m.length; i++) {
+			for (int j = 0; j < m.length; j++) {
+				
+			}
+		}
+		
+		
+		
+		
+	}//m
+
+	private static void dispN(int[][] n) {
+		for (int i = 0; i < n.length; i++) {//행갯수
+			for (int j = 0; j < n[i].length; j++) {//열(별)갯수
+				System.out.printf("m[%d][%d]=%d\t",i,j,n[i][j]);
+
+			}//for j
+			System.out.println();
+		}//for i
+
+	}
+
+	private static void dispM(int[] m) {
+		for (int i = 0; i < m.length; i++) {
+			System.out.printf("m[%d]=%d\t", i, m[i]);
+		}
+		System.out.println();
+	}
+}//c

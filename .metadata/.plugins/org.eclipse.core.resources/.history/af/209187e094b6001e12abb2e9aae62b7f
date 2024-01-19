@@ -1,0 +1,18 @@
+package days15;
+
+public class Ex07 {
+	public static void main(String[] args) {
+		//[static 키워드]
+		//	필드 앞에
+		//	메서드 앞에
+		//	클래스 앞에
+		
+		
+		
+		//예)
+		//우리 반 학생 -> 1층 기업은행 -> 보통예금
+		//1. 저축 클래스 선언 : Save 클래스 선언
+		
+		
+	}//m
+}//c

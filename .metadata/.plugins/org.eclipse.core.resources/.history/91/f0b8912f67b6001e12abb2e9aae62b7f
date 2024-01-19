@@ -1,0 +1,7 @@
+package days15;
+
+public class Ex01 {
+final int STUDENT_COUNT = 30;
+final int CLASS_COUNT= 3;
+
+}

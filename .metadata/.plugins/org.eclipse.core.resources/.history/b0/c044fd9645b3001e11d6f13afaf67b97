@@ -1,0 +1,34 @@
+package days11;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Ex02 {
+	public static void main(String[] args) {
+		int [] m = new int [3];
+
+		appendArray(m);
+		dispArray(m);
+	}//m
+
+	private static void appendArray(int[] m) {
+		Scanner sc = new Scanner(System.in);
+		int index = 0;
+		char con = 'y';
+		do {
+			System.out.printf("> m[%d] 입력 ? ", index);
+			m[index++] = sc.nextInt();
+			
+			System.out.printf("> 입력 계속 ? ");
+			con = (char) System.in.read();
+			System.in.skip(System.in.available());
+			
+		} while (Character.toUpperCase(con)=='Y');
+		
+	}
+
+	private static void dispArray(int [] m) {
+		System.out.println(Arrays.toString(m));
+
+	}
+}//c

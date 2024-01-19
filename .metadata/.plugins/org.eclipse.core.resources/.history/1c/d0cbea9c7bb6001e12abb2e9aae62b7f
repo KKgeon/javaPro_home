@@ -1,0 +1,17 @@
+package days15;
+
+/**
+ * @author geon
+ * @date 2024. 1. 19. - 오후 12:27:09
+ * @subject
+ * @content 다음 시험문제 2번
+ */
+public class Ex05 {
+	public static void main(String[] args) {
+			//어떤 클래스(person)의 필드를 private로 선언했다.
+			//private로 선언된 필드에 접근하는 방법
+		
+		
+	}
+
+}
